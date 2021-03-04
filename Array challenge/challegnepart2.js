@@ -21,5 +21,5 @@ function billsTips(num) {
     const every = bills[num] + tips[num];
     return every;
 }
-const total = `${billsTips(0)}, ${billsTips(1)}, ${billsTips(2)}`          //bills[0] + tips[0];
+const total = [billsTips(0), billsTips(1), billsTips(2)];          //bills[0] + tips[0];
 console.log(total);
